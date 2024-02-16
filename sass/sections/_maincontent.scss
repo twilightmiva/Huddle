@@ -1,4 +1,13 @@
-article{
-   display: flex;
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as*;
+.features {
+   @include flex(space-between,center,column);
+gap:2em;
+margin: 2em;
 }
+.feature{
+   // border: inset;
+   box-shadow: 0 0 4px lightgray;
+   @include flex(space-between,center);
 
+}

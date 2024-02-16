@@ -47,8 +47,23 @@ header {
   border-radius: 50px;
 }
 
-article {
+.features {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  gap: 2em;
+  margin: 2em;
+}
+
+.feature {
+  box-shadow: 0 0 4px lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
 }
 
 footer {
