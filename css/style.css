@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../../images/bg-hero-desktop.svg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding: 2em 0;
+}
+.nav__content button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 1em 5em;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px hsl(208, 11%, 55%);
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.hero__left button {
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 50px;
+}
+
+section {
+  color: red;
+}
